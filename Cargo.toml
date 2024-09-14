@@ -1,0 +1,10 @@
+[package]
+name = "minimal-axum-and-hyperlocal"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.5"
+hyperlocal = "0.9.1"
+tokio = { version = "1.40.0", features = ["rt-multi-thread"] }
+tower = "0.5.1"
